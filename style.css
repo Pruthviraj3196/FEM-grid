@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+.Firstarticle {
+    background-color: rgb(117,65,200);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.align1{
+  display: flex;
+  align-items: center;
+}
+
+.align12{
+  margin-left: 10px;
+}
+
+.secondarticle{
+    background-color: rgb(72,85,106);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.Thirdarticle{
+    background-color: rgb(255,255,255);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.fourtharticle{
+    background-color: rgb(255,255,255);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.fiftharticle{
+    background-color: rgb(25,33,46);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: ' one one two four' ' three five five four';
+}
+
+.Firstarticle{
+    padding: 10px;
+    grid-area: one;
+}
+
+.secondarticle{padding: 10px;
+   grid-area: two;
+}
+.Thirdarticle{
+    grid-area: four;padding: 10px;
+}
+
+.fourtharticle{
+    grid-area: three;padding: 10px;
+}
+
+.fiftharticle{
+    grid-area: five;padding: 10px;
+}
+
+/* @media screen and (min-width: 400px) {
+    main {
+      grid-template-areas:
+       'one one'
+       'two five'
+       'three five'
+       'four four';
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    main {
+        grid-template-areas:
+        "one one two"
+        "five five five"
+        "three four four";
+    }
+  } */
+
+  .danname{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 15px;
+
+  }
+
+  .danh2{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 19px;
+  }
+
+  .danp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 12px;
+  }
+
+  .danpp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: rgb(203,184,234);
+    font-size: 16px;
+  }
+
+    .danname{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 15px;
+
+  }
+
+  .danh2{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 19px;
+  }
+
+  .danp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 12px;
+  }
+
+  .danpp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 16px;
+  }
+
+  .jonname{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 15px;
+
+  }
+
+  .jonh2{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 19px;
+  }
+
+  .jonp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 12px;
+  }
+
+  .jonpp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: rgb(200,204,211);
+    font-size: 16px;
+  }
+
+
+  
+  
+  .jeanname{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: black;
+    font-size: 15px;
+
+  }
+
+  .jeanh2{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: black;
+    font-size: 19px;
+  }
+
+  .jeanp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: black;
+    font-size: 12px;
+  }
+
+  .jeanpp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: gray;
+    font-size: 16px;
+  }
+
+  .kiraname{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: black;
+    font-size: 15px;
+
+  }
+
+  .kirah2{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: black;
+    font-size: 19px;
+  }
+
+  .kirap{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: black;
+    font-size: 12px;
+  }
+
+  .kirapp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: gray;
+    font-size: 16px;
+  }
+
+  .patname{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 15px;
+
+  }
+
+  .path2{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 19px;
+  }
+
+  .patp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 12px;
+  }
+
+  .patpp{
+    font-family:"Barlow Semi Condensed", sans-serif;
+    color: rgb(186,189,193);
+    font-size: 16px;
+  }
+
+  .imgname img{
+    border-radius: 30px;
+  }
+
+  .profilekira{
+    display: grid;
+    
+  }
+ 
